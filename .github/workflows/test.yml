@@ -6,6 +6,11 @@ on:
       - 'a'
       - 'b'
       - 'c'
+  pull_request:
+    paths:
+      - 'a'
+      - 'b'
+      - 'c'
 
 jobs:
   test:
