@@ -1,0 +1,16 @@
+name: test
+
+on:
+  push:
+    paths:
+      - 'a'
+      - 'b'
+      - 'c'
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ls -l
