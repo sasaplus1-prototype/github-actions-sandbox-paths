@@ -3,14 +3,12 @@ name: test
 on:
   push:
     paths:
-      - 'a'
-      - 'b'
-      - 'c'
+      - 'Makefile'
+      - 'usr/**'
   pull_request:
     paths:
-      - 'a'
-      - 'b'
-      - 'c'
+      - 'Makefile'
+      - 'usr/**'
 
 jobs:
   test:
